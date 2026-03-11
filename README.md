@@ -60,7 +60,7 @@ Or automatically fetch channels from the account.
 Run:
 
 ```bash
-python main.py
+python autopost.py
 ```
 
 The script will send the content of `post.txt` to configured channels at the specified times.
