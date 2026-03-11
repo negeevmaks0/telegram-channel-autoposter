@@ -13,7 +13,7 @@ Simple Python script for automatically posting messages to Telegram channels at 
 ## Requirements
 
 - Python 3.9+
-- ([Telegram API credentials](https://my.telegram.org/auth))
+- [Telegram API credentials](https://my.telegram.org/auth)
 - Telethon
 
 Install dependencies:
