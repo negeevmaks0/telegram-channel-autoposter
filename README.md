@@ -13,7 +13,7 @@ Simple Python script for automatically posting messages to Telegram channels at 
 ## Requirements
 
 - Python 3.9+
-- Telegram API credentials
+- ([Telegram API credentials](https://my.telegram.org/auth))
 - Telethon
 
 Install dependencies:
@@ -45,8 +45,17 @@ Hello, this message was sent automatically.
 Edit posting times in the script:
 
 ```python
-time_to_send = [[13, 57], [14, 53], [18, 30]]
+schedule = [[13, 57], [14, 53], [18, 30]]
 ```
+
+You can manually specify channel IDs:
+
+```python
+channels = [-1001234567890]
+```
+
+Or automatically fetch channels from the account.
+
 
 Run:
 
@@ -55,16 +64,6 @@ python main.py
 ```
 
 The script will send the content of `post.txt` to configured channels at the specified times.
-
-## Channel Configuration
-
-You can manually specify channel IDs:
-
-```python
-self.channels = [-1001234567890]
-```
-
-Or automatically fetch channels from the account.
 
 ## Disclaimer
 

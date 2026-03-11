@@ -107,7 +107,7 @@ class AutoPost:
 
 if __name__ == '__main__':
     schedule = [(13,57), (14,56), (18,30)]
-    channels = [-4705845672]
+    channels = []
     # If you do not want to automatically parse channels from the account,
     # manually specify them here ^.
 
